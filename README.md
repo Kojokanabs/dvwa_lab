@@ -11,4 +11,4 @@ This repo contains write-ups and payloads from my home penetration testing lab u
 - XSS (Coming Soon)
 
 ## Tools Used
-Kali Linux, Burp Suite, firfox
+Kali Linux, Burp Suite, firefox
