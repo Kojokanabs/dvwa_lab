@@ -76,7 +76,10 @@ Unrestricted file upload vulnerabilities allow an attacker to upload malicious f
     exiftool -Comment='<?php system($_GET["cmd"]); ?>' image.jpg
     ```
 3. Upload `image.jpg` and test if the comment gets executed (often it doesn't unless executed manually).
-
+4. I create a .htaccess file inside the upload directory to lure the server to  treate jpg as php
+* If there is absence of php code inside the jpeg file, it may run but you will not get command line interface. And if you have the .htaccess, you dont need to 
+need to trick the file name with php(real.php.jpg), the .htaccess will take care of that.
+ * .htaccess may also been block by high level in DVWA due to security reason, so i change the level to medium to learn how .htaccess can be used to bypass.
 ### ✅ Result
 - Upload may succeed, but code execution does not occur.
 
