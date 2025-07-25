@@ -7,8 +7,8 @@ This repo contains write-ups and payloads from my home penetration testing lab u
 - Command Injection
 - CSRF
 - File upload Bypass
-- insecure CAPTURE(Coming soon) 
+- insecure CAPTURE 
 - XSS (Coming Soon)
 
 ## Tools Used
-Kali Linux, Burp Suite, firefox
+Kali Linux, Burp Suite, firefox, Browser Dev Tools
