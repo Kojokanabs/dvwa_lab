@@ -9,7 +9,7 @@ This repo contains write-ups and payloads from my home penetration testing lab u
 - File upload Bypass
 - Insecure CAPTURE 
 - SQl_Injuction.md
-- SDl_Blind
+- SQl_Blind
 - XSS (Coming Soon)
 
 ## Tools Used
