@@ -10,7 +10,9 @@ This repo contains write-ups and payloads from my home penetration testing lab u
 - Insecure CAPTURE 
 - SQl_Injuction.md
 - SQl_Blind
-- XSS (Coming Soon)
+- DOM XSS
+- Reflected_XSS.md
+- XSS_Stored (Coming Soon)
 
 ## Tools Used
 Kali Linux, Burp Suite, firefox, Browser Dev Tools, CrackStation(web_base),John the ripper, sqlmap
